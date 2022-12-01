@@ -7,7 +7,7 @@ function my_mail ($mail=NULL)
         return;
     }
 
-    if(!substr_count($mail,'@')&&!substr_count($mail,'.'))
+    if(!substr_count($mail,'@')||!substr_count($mail,'.'))
     {
         return;
     }
