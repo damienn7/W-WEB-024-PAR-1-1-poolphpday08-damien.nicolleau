@@ -1,13 +1,8 @@
 <?php
 
-function which_is_longer($str1, $str2)
+function which_is_longer($str1=-1, $str2=-1)
 {
     if(!is_string($str1)||!is_string($str2))
-    {
-        return -1;
-    }
-
-    if(strlen($str1)==0||strlen($str2)==0)
     {
         return -1;
     }
