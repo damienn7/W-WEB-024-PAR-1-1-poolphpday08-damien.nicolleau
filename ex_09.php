@@ -17,5 +17,7 @@ function make_pangolins(&$my_array)
     }
 }
 
+/* -----------TEST----------- */
+
 //$arr=["toto",true,"tata"];
 //var_dump(make_pangolins($arr));
