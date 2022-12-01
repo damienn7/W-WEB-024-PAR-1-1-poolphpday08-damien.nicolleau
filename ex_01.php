@@ -2,7 +2,7 @@
 
 function which_is_longer($str1, $str2)
 {
-    if((!isset($str1) || !isset($str2)) || (!is_string($str1)||!is_string($str2)))
+    if(!is_string($str1)||!is_string($str2))
     {
         return -1;
     }
@@ -27,4 +27,4 @@ function which_is_longer($str1, $str2)
     }
 }
 
-echo which_is_longer("fejfzlzhef");
+//echo which_is_longer("fejfzlzhef");
