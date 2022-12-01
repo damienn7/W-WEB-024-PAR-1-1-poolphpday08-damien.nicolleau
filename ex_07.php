@@ -8,15 +8,21 @@ function count_char($str=NULL)
     }
     else
     {
+        $str=trim($str," ");
+        $str=trim($str,"    ");
         $arr=str_split($str);
+        sort($arr);
         $occurence=array_count_values($arr);
+
         //var_dump($arr);
         return $occurence;
     }
 }
 
-//$chaine = " Hello World ";
-//count_char ( $chaine ) ;
+$chaine = " Hello World ";
+count_char ( $chaine ) ;
+
+/* -----------TEST----------- */
 
 /*
 écrire une fonction nommée “count_char” qui prend une chaîne de caractères en paramètre et qui retourne

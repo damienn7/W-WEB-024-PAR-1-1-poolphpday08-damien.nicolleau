@@ -13,6 +13,7 @@ function str_to_wordtab($str=NULL,$delim=NULL)
     return $arr;
 }
 
+/* -----------TEST----------- */
 
 
 //echo gettype(str_to_wordtab(" Mais tu es tout la "," "));

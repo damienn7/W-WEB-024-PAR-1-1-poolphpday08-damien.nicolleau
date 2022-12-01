@@ -20,7 +20,7 @@ function str_lower_epur ($str=NULL)
     return rtrim(ltrim($chaine));
 }
 
-
+/* -----------TEST----------- */
 
 //echo str_lower_epur (" Un PanGolin CacHe ") ;
 

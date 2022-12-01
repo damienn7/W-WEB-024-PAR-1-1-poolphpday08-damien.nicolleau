@@ -15,4 +15,6 @@ function my_rounds($nb=NULL)
     }
 }
 
+/* -----------TEST----------- */
+
 //echo my_rounds(3.46);

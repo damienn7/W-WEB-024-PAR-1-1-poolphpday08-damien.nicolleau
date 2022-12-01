@@ -33,7 +33,7 @@ function clear_and_replace($string=NULL, $word=NULL)
 
 }
 
-
+/* -----------TEST----------- */
 
 //clear_and_replace (" Salut le chat , le chien et le lapin " , "le") ;
 /*

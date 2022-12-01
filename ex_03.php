@@ -54,6 +54,8 @@ function my_mail ($mail=NULL)
 
 }
 
+/* -----------TEST----------- */
+
 //my_mail (" fakemail@mon . mail . tralala .com ") ;
 
 /*
