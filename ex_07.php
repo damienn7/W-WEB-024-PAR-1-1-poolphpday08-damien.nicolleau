@@ -8,19 +8,18 @@ function count_char($str=NULL)
     }
     else
     {
-        $str=trim($str," ");
-        $str=trim($str,"    ");
+        $str=str_replace(" ","",$str);
         $arr=str_split($str);
         sort($arr);
         $occurence=array_count_values($arr);
 
-        //var_dump($arr);
+        //var_dump($occurence);
         return $occurence;
     }
 }
 
-$chaine = " Hello World ";
-count_char ( $chaine ) ;
+//$chaine = " Hello World ";
+//count_char ( $chaine ) ;
 
 /* -----------TEST----------- */
 
